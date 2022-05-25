@@ -5,4 +5,9 @@
     <string name="first_fragment_label">First Fragment</string>
     <string name="hello_first_fragment">Hello first fragment</string>
     <string name="naam">Albert Hein</string>
+    <string name="beschrijving">Albert Heijn is de grootste supermarktketen van Nederland
+        met een marktaandeel van ongeveer 35% in 2020. Het bedrijf is opgericht in 1887 als
+        eenmans-kruidenierszaak en sindsdien uitgegroeid tot een van de grootste bedrijven
+        van Nederland met tevens vestigingen in België. Sinds 2016 is de keten onderdeel
+        van Ahold Delhaize.</string>
 </resources>
