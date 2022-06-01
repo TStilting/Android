@@ -6,27 +6,47 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <TextView
-        android:id="@+id/textViewLeft"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="140dp"
-        android:layout_marginTop="60dp"
-        android:layout_marginBottom="310dp"
-        android:text="@string/text_left"
+    <Button
+        android:id="@+id/buttonRight"
+        android:layout_width="161dp"
+        android:layout_height="169dp"
+        android:layout_marginEnd="77dp"
+        android:text="0"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/buttonLeft"
+        android:layout_width="161dp"
+        android:layout_height="169dp"
+        android:layout_marginStart="77dp"
+        android:text="0"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/textViewRight"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:id="@+id/textViewLeft"
+        android:layout_width="164dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="75dp"
         android:layout_marginTop="60dp"
-        android:layout_marginEnd="140dp"
-        android:layout_marginBottom="310dp"
+        android:layout_marginBottom="20dp"
+        android:text="@string/text_left"
+        app:layout_constraintBottom_toTopOf="@+id/buttonLeft"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textViewRight"
+        android:layout_width="164dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginEnd="75dp"
+        android:layout_marginBottom="20dp"
         android:text="@string/text_right"
-        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/buttonRight"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -41,4 +61,6 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+
 </androidx.constraintlayout.widget.ConstraintLayout>

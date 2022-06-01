@@ -3,4 +3,5 @@
     <string name="text_left">Home</string>
     <string name="text_right">Away</string>
     <string name="reset">Reset</string>
+    <string name="button_empty">0</string>
 </resources>
