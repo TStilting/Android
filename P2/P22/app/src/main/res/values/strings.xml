@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">P2.2</string>
+    <string name="button_true">True</string>
+    <string name="button_false">False</string>
+    <string name="question1">W.I.P</string>
+    <string name="question2">W.I.P</string>
+    <string name="question3">W.I.P</string>
+    <string name="score">Score:</string>
+    <string name="score_number">0/3</string>
+</resources>
