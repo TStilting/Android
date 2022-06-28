@@ -12,15 +12,15 @@ public class Locatie {
         this.bezoekers = bezoekers;
     }
 
-    public String getnaam() {
+    public String getNaam() {
         return naam;
     }
 
-    public String getinfo() {
+    public String getInfo() {
         return info;
     }
 
-    public int getbezoekers() {
+    public int getBezoekers() {
         return bezoekers;
     }
 
