@@ -12,11 +12,11 @@ public class Locatie {
         this.bezoekers = bezoekers;
     }
 
-    public String getNaam() {
+    public static String getNaam() {
         return naam;
     }
 
-    public String getInfo() {
+    public static String getInfo() {
         return info;
     }
 

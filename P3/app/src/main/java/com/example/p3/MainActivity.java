@@ -3,6 +3,7 @@ package com.example.p3;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+import android.widget.ListView;
 
 import java.util.ArrayList;
 
@@ -14,6 +15,10 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        locatieToevoegen();
+        ListView listView = (ListView) findViewById(R.id.locatieLijst);
+        LocatieArrayAdapter adapter = new LocatieArrayAdapter(this , locaties);
+        listView.setAdapter(adapter);
     }
 
     private void locatieToevoegen() {
